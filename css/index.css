@@ -1,0 +1,255 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+body {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+.box1 {
+  background-color: #fff;
+  padding-bottom: 0.86rem;
+}
+.box1 .header {
+  height: 1.6rem;
+  line-height: 1.6rem;
+  border-bottom: 1px solid #1C1C1C;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #1c1c1c;
+}
+.box1 .nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box1 .nav a {
+  display: flex;
+  flex: 33.33333333%;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.38rem 0 0.32rem 0;
+}
+.box1 .nav a img {
+  width: 2.78rem;
+  height: 2.78rem;
+}
+.box1 .nav a:nth-child(-n+3) {
+  margin-top: 0.88rem;
+}
+.box1 .nav a span {
+  color: #070707;
+  font-size: 0.5rem;
+}
+.box1 .go {
+  margin: 1.2rem 0.2rem 0.86rem 0.36rem;
+}
+.box1 .go img {
+  width: 14.44rem;
+  height: 3.04rem;
+}
+.box2 {
+  background-color: #fff;
+  margin-top: 0.2rem;
+}
+.box2 .bx {
+  display: flex;
+  height: 0.76rem;
+  line-height: 0.76rem;
+  justify-content: space-between;
+  padding-top: 0.8rem;
+}
+.box2 .bx h4 {
+  font-size: 0.56rem;
+  color: #333;
+}
+.box2 .bx h4 img {
+  width: 0.76rem;
+  height: 0.76rem;
+  vertical-align: middle;
+  margin: 0 0.46rem 0 0.36rem;
+}
+.box2 .bx a {
+  padding-right: 0.4rem;
+  font-size: 0.44rem;
+  color: #999;
+}
+.box2 .box3 {
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+.box2 .box3 .swiper-container {
+  width: 10.8rem;
+  margin-top: 2.24rem;
+}
+.box2 .box3 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.4;
+}
+.box2 .box3 .swiper-slide a {
+  width: 6.76rem;
+  height: 7.52rem;
+}
+.box2 .box3 .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+}
+.box2 .box3 .swiper-slide span {
+  width: 6.76rem;
+  font-size: 0.5rem;
+  color: #333;
+  margin-top: 0.24rem;
+}
+.box2 .box3 .swiper-slide-active,
+.box2 .box3 .swiper-slide-duplicate-active {
+  transform: scale(1);
+  z-index: 999;
+  opacity: 1;
+}
+.box2 .box3 .swiper-button-next,
+.box2 .box3 .swiper-button-prev {
+  color: black;
+  width: 0.46rem;
+  height: 0.86rem;
+}
+.box4 {
+  background-color: #fff;
+  margin-top: 0.2rem;
+  padding-bottom: 0.8rem;
+}
+.box4 .bx {
+  display: flex;
+  height: 0.76rem;
+  line-height: 0.76rem;
+  justify-content: space-between;
+  padding-top: 0.8rem;
+}
+.box4 .bx h4 {
+  font-size: 0.56rem;
+  color: #333;
+}
+.box4 .bx h4 img {
+  width: 0.76rem;
+  height: 0.76rem;
+  vertical-align: middle;
+  margin: 0 0.46rem 0 0.36rem;
+}
+.box4 .bx a {
+  padding-right: 0.4rem;
+  font-size: 0.44rem;
+  color: #999;
+}
+.box4 .swiper {
+  margin-top: 1.46rem;
+  margin-left: 0.6rem;
+  overflow: hidden;
+}
+.box4 .swiper .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  width: 7.733333rem;
+  height: 6.4rem;
+  background-color: #fff;
+  border-radius: 0.266667rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+.box4 .swiper .swiper-slide img {
+  width: 100%;
+  padding: 0.2rem;
+}
+.box4 .swiper .swiper-slide p {
+  margin-left: 0.24rem;
+  font-size: 0.6rem;
+}
+.box4 .swiper .swiper-slide span {
+  margin: 0.16rem 0 0 0.32rem;
+  font-size: 0.52rem;
+  color: #f40;
+}
+.box4 .swiper .swiper-slide span::after {
+  content: "人学习";
+  color: #ccc;
+  font-size: 0.48rem;
+}
+.footer {
+  background-color: #fff;
+  margin-top: 0.2rem;
+  padding-bottom: 0.4rem;
+  display: flex;
+}
+.footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 25%;
+}
+.footer a img {
+  width: 0.78rem;
+  height: 0.82rem;
+  margin-top: 0.38rem;
+}
+.footer a span {
+  margin-top: 0.22rem;
+  font-size: 0.44rem;
+  color: #666;
+}
